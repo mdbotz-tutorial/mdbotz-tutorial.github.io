@@ -1,0 +1,134 @@
+
+
+body {
+    display: block;
+    margin: 0;
+}
+
+.header-text {
+    /* font-family: fantasy; */
+    font-family: sans-serif;
+    /* flex-direcio : column; */
+    /* margin-bottom: 0; */
+    /* margin: 0; */
+    text-decoration:  rgb(162, 162, 162);
+}
+
+/* .topper-header {
+    border: 50px;
+    border-color: black;
+}
+.topper-header h1 {
+    border-radius: 5vh;
+    border: 30px;
+    border-color: black;
+} */
+
+/* .topper-header {
+    background-color: rgb(19, 18, 18);
+    margin-top: 0;
+    padding-top: 100px;
+    /* border: 10px; 
+    border-color: black;
+    border-style: solid;
+    box-shadow: 10px 10px green;
+} */
+
+.top {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    /* align-items: center; */
+    /* display: inline-block; */
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 30px 0 30px;
+    /* border-bottom: 1px solid rgb(4, 4, 4); */
+    border: 0.3px solid  rgb(4, 4, 4);
+    border-radius: 30px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 10px 0 0 30px;
+    border: solid;
+    border-color: rgb(0, 207, 244);
+}
+
+.company {
+    /* margin: 0 */
+    font-family: sans-serif;/* Helvatica; */
+    /* font-style: oblique 1deg; */
+    background-color: rgba(255, 255, 255, 0);
+    /* border-radius: 5px; */
+    font-weight: bold;
+    font-size: 13px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); */
+    margin: 20px 0 0 10px;
+    /* border-color: black; */
+    /* border: 0px  solid; */
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    
+}
+
+/* .custom-text {
+    background-color: red;
+    border-radius: 30%;
+    width: 70px;
+    font-size: 20px;
+    /* border-style: */
+    /* position: relative; 
+    height: 30px;
+    margin: 0;
+    
+
+} */
+
+.header-text h3 {
+   margin: 0;
+   margin-top: 5vh;
+   padding: 10opx;
+}
+.second {
+    display: flex;
+    
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* flex-direction: column;  */
+    /* flex-direction: column;
+     */
+    align-items:flex-start;
+    
+}
+
+.image-boder {
+    /* overflow: hidden; */
+    width: 170px;
+    border: 10px;
+    border-radius: 20px;
+    border-color: rgb(255, 0, 0);
+    height: 170px
+}
+
+/* .second > p {
+    width: 400px;
+    
+    /* align-self: flex-start; */
+/* } */ 
+
+.group1 {
+   display: flex;
+   flex-direction: row;
+   /* align-content: center; */
+   align-content: flex-start;
+   gap: 20px;
+   width: auto
+}
+
+
+.group1 > h4 {
+    margin-left: 400px
+}
