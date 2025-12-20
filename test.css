@@ -3,6 +3,7 @@
 body {
     display: block;
     margin: 0;
+    height: 100%
 }
 
 .header-text {
@@ -50,7 +51,7 @@ body {
     border: 0.1px solid  rgb(0, 0, 0);
     border-radius: 10px;
     /* filter: blur(1px) */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px rgb(15, 231, 227);
 }
 
 .logo {
@@ -59,6 +60,10 @@ body {
     border-radius: 50px;
     margin: 8px 0 0 16px;
     border: solid;
+    border-color: rgb(15, 231, 227);
+}
+
+.logo:hover {
     border-color: rgb(255, 255, 255);
 }
 
@@ -74,7 +79,7 @@ body {
     /* margin: 20px 0 0 10px; */
     /* border-color: black; */
     /* border: 0px  solid; */
-    color: rgb(255, 255, 255);
+    color: rgb(15, 231, 227);
     letter-spacing: 1px;
     display: inline;
     position: absolute;
