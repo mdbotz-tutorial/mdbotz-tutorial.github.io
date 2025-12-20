@@ -93,10 +93,10 @@ body {
 .support {
     position: absolute; /* keep parent as top */
     right: 30px;
-    top: 13px;
+    top: 15px;
     color: rgb(0, 247, 255);
-    background: rgb(255, 255, 255);
-    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.385);
+    border-radius: 1px;
     border: 1px solid rgb(0, 247, 255);
     padding: 2px 5px 2px 5px;
     text-decoration: none;
@@ -104,11 +104,13 @@ body {
     font-weight: bold;
     font-size: 0.8rem;
 }
-
+/* 
 .support:hover{
     color:rgb(0, 0, 0);
     background: rgb(0, 245, 255);
-}
+    /* transition-duration: 1s;
+    transition-delay: 2s; */
+} */
 .tutorial {
     /* display: inline-block;*/
     display: flex;
