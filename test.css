@@ -35,30 +35,31 @@ body {
 } */
 
 .top {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     height: 50px;
     /* align-items: center; */
     /* display: inline-block; */
     display: block;
     position: sticky;
-    width: 85%;
+    width: auto;
     /* left: 0; */
     top: 10px;
     align-items: flex-start;
-    margin: 10px 10px 0 40px;
+    margin: 10px 10px 10px 10px;
     /* border-bottom: 1px solid rgb(4, 4, 4); */
-    border: 0.3px solid  rgb(4, 4, 4);
-    border-radius: 30px;
-    filter: blur(1px)
+    border: 0.1px solid  rgb(0, 0, 0);
+    border-radius: 10px;
+    /* filter: blur(1px) */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
     height: 30px;
     width: 30px;
     border-radius: 50px;
-    margin: 10px 0 0 30px;
+    margin: 8px 0 0 16px;
     border: solid;
-    border-color: rgb(0, 207, 244);
+    border-color: rgb(255, 255, 255);
 }
 
 .company {
@@ -73,7 +74,7 @@ body {
     /* margin: 20px 0 0 10px; */
     /* border-color: black; */
     /* border: 0px  solid; */
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
     display: inline;
     position: absolute;
@@ -104,15 +105,29 @@ body {
 
 .tutorial > p {
     width: fit-content;
-    display: inline-block
+    /* display: inline; */
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
 }
+
 .image13 {
-    width: 100px;
-    height: 100px;
+    align-items: center;
+    width: 25dvh;
+    height: min(35dvh, 150px);
+    /* object-fit: cover; */
+    /* border-radius: 1%
+    0px; */
+    background-color: antiquewhite;
+    border: 0 1px 0 5px solid rgb(255, 255, 255); 
+    box-shadow: 0px 1px 2px 2px rgb(172, 164, 164)
+    
+}
+
+.image13::after {
+   
 }
 .header-text h3 {
    margin: 0;
-   margin-top: 5vh;
+   margin-top: 10vh;
    padding: 10opx;
 }
 .second {
@@ -164,6 +179,6 @@ body {
 @media (max-width: 670px) {
     .tutorial {
         top: 30px;
-        filter: blur(10px)
+        /* filter: blur(10px) */
     }
 }
