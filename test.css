@@ -188,10 +188,10 @@ body {
 }
 
 .dummy{
-    height: 100px;
-    width: 160px;
+    height: 160px;
+    width: 100px;
 }
-}
+
 .image-boder {
     /* overflow: hidden; */
     width: 170px;

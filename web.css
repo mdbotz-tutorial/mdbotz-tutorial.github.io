@@ -1,0 +1,66 @@
+
+body {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    /* column-gap: 3rem */
+}
+
+.container h6 {
+    display: inline;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100vw; */
+    height: 4rem;
+    margin: 10px 10px 0 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid yellow;    
+    border-radius: 10px;
+    /* box-shadow:  */
+    overflow: hidden;
+    border-right: 10px;
+    align-items: center;
+    border: 0 10px;
+    /* left: 10px; */
+    /* justify-content: center; */
+}
+
+.company-1{
+    color: rgb(0, 200, 255);
+     margin-left: 1vw;
+     letter-spacing: 3px;
+}
+
+.company-2 {
+    color: white;
+    display: absolute;
+    /* margin: 2.3vh 0px 0px ;  */
+    text-justify: distribute;
+    /* font-size: 2.4vw */
+}
+
+#company {
+    gap: 10;
+    /* font-size: 18px; */
+    font-size: 1rem;
+}
+
+.logo {
+   display: absolute;
+   /* top: 20px; */
+   /* height: 30px; */
+   width: 35px;
+   margin-left: 10px;
+   border-radius: 50%;
+   border: 2px solid rgb(0, 132, 255);
+   margin: 10px 0px 10px 10px;
+}
