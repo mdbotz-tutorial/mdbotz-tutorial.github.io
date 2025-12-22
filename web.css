@@ -1,7 +1,8 @@
 
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.79) */
 }
 
 .container {
@@ -67,13 +68,73 @@ body {
 
 .tutorial {
     display: grid;
-    grid-auto-rows: 100px 100px 100px;
-    grid-auto-columns: 100px 100px 100px;
-    border: 10px solid yellow;
-    row-gap: 10px;
-    column-gap: 10px;
+    /* grid-auto-rows: 10px;
+    grid-auto-columns:  10px; */
+    /* grid-template-rows: 1fr 2fr 6fr; */
+    border: 10px solid rgb(255, 255, 255);
+    /* row-gap: 10px; */
+    /* column-gap: 10px; */
+    margin: 50px 10px 10px 10px;
+    /* row-gap: 10px; */
+    /* padding: 10px */
+    justify-content: center;
 }
 
-.tutorial > p{
-    border: 10px solid green
+.tutorials {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(8, 243, 255, 0.838);
+    border-radius: 10px 10px 3px 3px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    max-width: fit-content;
+    border: 10px solid rgba(255, 255, 255, 0);
+    
+
 }
+
+.tutorials > p {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 233, 254);
+    font-family:  sans-serif;
+    font-style: italic;
+    text-indent: 10px;
+    background-color: rgb(0, 0, 0);
+    /* display: inline; */
+    max-width: 250px;
+    padding-top: 10px;
+    font-size: small;
+    /* display: inline-block; */
+    /* top: 10px; */
+    position: relative;
+    /* margin: 3px; */
+    padding: 10px;
+}
+
+.tutorials > img {
+    width: 250px;
+    height: 120px;
+    border: 0px solid grey;
+    border-radius: 10px 10px 3px 3px;
+    margin: 0px;
+}
+
+.question{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 100px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 255, 238);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    
+}
+/* 
+@media(max-width: 800px){
+    .tutorial{
+        width:60px;
+    }
+} */
