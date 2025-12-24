@@ -32,6 +32,7 @@ body {
     border-right: 10px;
     align-items: center;
     border: 0 10px;
+    position: sticky;
     /* left: 10px; */
     /* justify-content: center; */
 }
