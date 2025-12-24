@@ -74,11 +74,16 @@ body {
     /* grid-template-rows: 1fr 2fr 6fr; */
     /* row-gap: 10px; */
     /* column-gap: 10px; */
+    grid-template-columns: repeat(auto-fit, 300px);
+    /* grid-template-rows: auto; */
+    grid-template-rows: repeat(auto-fit, 300px);
     margin: 50px 10px 10px 10px;
     /* row-gap: 10px; */
     /* padding: 10px */
     justify-content: center;
+    align-items: center;
     gap: 100px;
+    place-items: center;
 }
 
 .tutorials {
