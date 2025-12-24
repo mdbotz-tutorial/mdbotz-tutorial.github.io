@@ -101,7 +101,8 @@ body {
     /* margin-left: 10px; */
     background-color: rgb(255, 255, 255);
     /* display: inline; */
-    max-width: 250px;
+    /* max-width: 230px; */
+    width: 200px;
     padding-top: 10px;
     font-size: small;
     /* display: inline-block; */
@@ -113,13 +114,14 @@ body {
 }
 
 .tutorials > img {
-    width: 200px;
+    width: 230px;
     height: 170px;
     /* height: auto;
     width: auto; */
     border: 0px solid grey;
     border-radius: 10px 10px 3px 3px;
     margin: 0px;
+    object-fit: contains;
 }
 
 .count{
