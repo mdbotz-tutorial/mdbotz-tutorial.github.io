@@ -68,40 +68,71 @@ body {
    margin: 10px 0px 10px 10px;
 }
 
+.question {
+    position: relative;
+    background-color:rgba(255, 255, 255, 0.129);
+    color: rgba(0, 0, 0, 0.648);
+    /* align-self: flex-start */
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    margin: 0px;
+    top: 5vh;
+    border: 1px solid rgba(255, 255, 255, 0.281);
+    border-radius: 10px;
+}
+
 .tutorial {
     display: grid;
+    position: relative;
     /* grid-auto-rows: 10px;
     grid-auto-columns:  10px; */
     /* grid-template-rows: 1fr 2fr 6fr; */
     /* row-gap: 10px; */
-    /* column-gap: 10px; */
+    /* column-gap: 10px;*/
     grid-template-columns: repeat(auto-fit, 300px);
     /* grid-template-rows: auto; */
-    grid-template-rows: repeat(auto-fit, 300px);
+    /* grid-template-rows: repeat(auto-fit, 300px); heigh must be sepecified */
+    grid-auto-rows: 300px;
+
     margin: 50px 10px 10px 10px;
+    padding: 0;
+    /* margin: 0; */
     /* row-gap: 10px; */
     /* padding: 10px */
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    place-items: center;
+    /* gap: 50px; */
+    place-items: center center;
+     position: relative;
+    /* grid-template-areas: 
+       mdbotz mdbotz;*/
+    /* height: 50vh; */
 }
 
-.tutorials {
+
+.tutorials{
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.838);
-    border-radius: 10px 10px 3px 3px;
+   
+    align-items: center;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 5px 5px;
     overflow: hidden;
     backdrop-filter: blur(10px);
     max-width: fit-content;
+    max-height: fit-content;
+    margin: 0;
+    /* grid-area: mdbotz; */
     border: 3px solid rgb(255, 255, 255);
 }
 
 .description {
     margin: 0px 0px 0px 10px;
     padding: 0;
-    color: rgb(46, 46, 46);
+    color: rgba(46, 46, 46, 0.566);
     font-family:  sans-serif;
     /* font-style: oblique; */
     font-weight:bolder;
@@ -123,9 +154,10 @@ body {
 .tutorials > img {
     width: 230px;
     height: 170px;
+    background-color: rgb(0, 255, 157);
     /* height: auto;
     width: auto; */
-    border: 0px solid grey;
+    /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 10px 10px 3px 3px;
     margin: 0px;
     object-fit: contains;
@@ -143,7 +175,7 @@ body {
     /* height: px; */
     height: 14px;
     /* padding: 4px; */
-    font-size: 2rem;
+    font-size: 1.2rem;
     /* background-color: black; */
     border-radius: 50%;
     color: rgb(106, 101, 101);
@@ -171,16 +203,7 @@ body {
     
 } */
 
-.question {
-    background-color:rgba(255, 255, 255, 0.129);
-    color: rgba(0, 0, 0, 0.648);
-    /* align-self: flex-start */
-    text-align: center;
-    font-size: 1.2em;
-    margin-left: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.281);
-    border-radius: 10px;
-}
+
 
 /* 
 @media(max-width: 800px){

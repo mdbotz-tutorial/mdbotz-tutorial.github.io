@@ -15,13 +15,18 @@ console.log(doc)
 let tutorials = [
     {
      url: "dark.jpg",
-     description: "send command /special_link<br>click the create button dummy js",
+     description: "- send command /special_link<br>click the create button dummy js",
      count: 3
     },
     {
-    url: "small-tut-2.jpg",
-    description: "after send the message you want to store to bot dium,mmyt description more to text uint",
+    url: "tutorial2.jpg",
+    description: "- after send the message you want to store to bot dium,mmyt description more to text uint",
     count: 4
+    },
+    {
+     url: "tutorial3.jpg",
+     description: "- if you want to store more mssage then send messages one by one to bot.",
+     count: 5
     }
 ];
 
