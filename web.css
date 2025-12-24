@@ -2,7 +2,8 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: rgba(229, 216, 216, 0.79)
+    background-color: rgba(229, 216, 216, 0.845);
+    margin-bottom: 100px;
 }
 
 .container {
@@ -133,18 +134,25 @@ body {
 .count{
     /* margin: .
      */
-    margin: 4px;
+    margin: 1px;
     /* margin: 10px 10px 10px 10px; */
     /* padding: 0px; */
     align-self: center;
-    border: 1px solid grey;
-    padding: 3px;
-    width: 29px;
-    font-size: large;
-    background-color: black;
+    padding: 2px;
+    width: 10px;
+    /* height: px; */
+    height: 14px;
+    /* padding: 4px; */
+    font-size: 2rem;
+    /* background-color: black; */
     border-radius: 50%;
-    color: white;
+    color: rgb(106, 101, 101);
+    /* text-align: justify; */
     text-align: center;
+    width: fit-content;
+    min-width: max-content;
+    height: max-content;
+    /* background-color: none; */
 
 }
 

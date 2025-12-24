@@ -16,12 +16,12 @@ let tutorials = [
     {
      url: "dark.jpg",
      description: "send command /special_link<br>click the create button dummy js",
-     count: 1
+     count: 3
     },
     {
     url: "small-tut-2.jpg",
     description: "after send the message you want to store to bot dium,mmyt description more to text uint",
-    count: 2
+    count: 4
     }
 ];
 
