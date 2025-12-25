@@ -2,11 +2,11 @@
 
 console.log("running js");
 
-alert("dumnmy warning")
+// alert("dumnmy warning")
 
-const doc = document.getElementsByClassName("count")
+// const doc = document.getElementsByClassName("count")
 
-console.log(doc)
+// console.log(doc)
 
 // const createPage = (req, res) = {
 
@@ -20,12 +20,12 @@ let tutorials = [
     },
     {
     url: "tutorial2.jpg",
-    description: "- after send the message you want to store to bot dium,mmyt description more to text uint",
+    description: "after send the message you want to store to bot dium,mmyt description more to text uint",
     count: 4
     },
     {
      url: "tutorial3.jpg",
-     description: "- if you want to store more mssage then send messages one by one to bot.",
+     description: "if you want to store more mssage then send messages one by one to bot.",
      count: 5
     }
 ];
