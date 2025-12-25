@@ -15,7 +15,11 @@ let tutorials = [
     {
          url: "tutorial4.jpg",
          description: "To generate shareable link click the button named generate link"
-    }   
+    }, 
+    {
+        url: "tutorial5.jpg",
+        description: "after clicking genrate link button your clone will give you a sharable and modifiable link",
+    }
 ];
 
 function createPage(){
