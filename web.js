@@ -1,37 +1,21 @@
-// let name = prompt("enter your name: ");
-
-console.log("running js");
-
-// alert("dumnmy warning")
-
-// const doc = document.getElementsByClassName("count")
-
-// console.log(doc)
-
-// const createPage = (req, res) = {
-
-// }
 
 let tutorials = [
     {
-     url: "dark.jpg",
-     description: "send command /special_link<br>click the create button dummy js"
+        url: "dark.jpg",
+        description: "send command /special_link<br>click the create button dummy js"
     },
     {
-     url: "tutorial2.jpg",
-     description: "After send the message you want to store to bot dium,mmyt description more to text uint"
+        url: "tutorial2.jpg",
+        description: "After send the message you want to store to bot dium,mmyt description more to text uint"
     },
     {
-     url: "tutorial3.jpg",
-     description: "If you want to store more mssage then send messages one by one to bot."
+        url: "tutorial3.jpg",
+        description: "If you want to store more mssage then send messages one by one to bot."
     },
     {
-      url: "tutorial4.jpg",
-      description: "To generate shareable link click the button named generate link"
-    }
-    // {
-    //  url: 
-    // }
+         url: "tutorial4.jpg",
+         description: "To generate shareable link click the button named generate link"
+    }   
 ];
 
 function createPage(){
