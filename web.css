@@ -127,6 +127,7 @@ body {
     margin: 0;
     /* grid-area: mdbotz; */
     border: 3px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
 }
 
 .description {
