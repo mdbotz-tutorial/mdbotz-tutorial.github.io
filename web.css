@@ -2,7 +2,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: rgba(229, 216, 216, 0.845);
+    background-color: rgba(240, 241, 243, 1);
     margin-bottom: 100px;
 }
 
@@ -72,22 +72,20 @@ body {
 
 .question {
     display: block;
-    background-color:rgba(255, 255, 255, 0.129);
-    color: rgba(0, 0, 0, 0.648);
+    background-color:rgba(214, 211, 211, 0);
+    color: rgb(0, 0, 0);
     /* align-self: flex-start */
     /* text-align: center; */
-    font-size: 1.2em;
+    font-size: 1.4em;
     padding-top: 30px;
     margin: 0px;
     padding-left:10px;
     /* top: 5vh; */
-    border: 1px solid rgba(255, 255, 255, 0.281);
+    border: 1px solid rgba(232, 227, 227, 0.281);
     border-radius: 10px;
     /* height: 10px; */
-}
-
-.question::before{
-    content: "1)";
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    text-align: center;
 }
 
 .tutorial {
