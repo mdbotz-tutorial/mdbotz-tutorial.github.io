@@ -27,7 +27,7 @@ html body {
     height: 4rem;
     margin: 10px min(10vw, 10px) 0 10px;
     background-color: rgb(0, 0, 0);
-    border: 1.5px solid rgb(0, 242, 255);   
+    border: 1.5px solid nrgb(0, 242, 255);   
     /* background-color: white; */
     border-radius: 10px;
     /* box-shadow:  */
@@ -238,7 +238,7 @@ html body {
     /* padding: 3px; */
     justify-content: center;
     width: 100vw;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     color: rgb(0, 0, 0);
     /* font-size: small; */
     border: 1px solid rgba(0, 0, 0, 0.179);
@@ -261,22 +261,24 @@ html body {
 .support {
     font-size: 1rem;
     margin: 0;
-    background-color: rgba(87, 3, 255, 0.167);
+    /* background-color: rgba(87, 3, 255, 0.167); */
     border-radius: 10px;
-    color: rgba(0, 0, 0, 0.612);
+    color: rgba(0, 0, 0, 0.634);
     padding: min(0.5vw, 4px) 10px;
     border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.141);
+    /* border: 1px solid rgba(0, 0, 0, 0.141); */
+    border: 1px solid rgba(50, 50, 50, 0.267);
+    background-color: white;
 }
 
 @media(max-width: 600px){
     .footer {
-        padding: 3px;
+        padding: 5px;
     }
 
     .support {
-        font-size: 0.7em;
-        padding: 1px 3px;
+        font-size: 0.8em;
+        padding: 2px 3px;
     }
 }
 
