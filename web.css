@@ -3,7 +3,8 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: rgba(240, 241, 243, 1);
-    margin-bottom: 100px;
+    /* background-color: #f8f9fb; */
+    /* margin-bottom: 100px; */
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
     border-right: 10px;
     align-items: center;
     border: 0 10px;
-    position: relative;
+    position: nrelative;
     /* left: 10px; */
     /* justify-content: center; */
 }
@@ -123,7 +124,7 @@ body {
     /* grid-template-areas: 
        mdbotz mdbotz;*/
     /* height: 50vh; */
-    height: 100%;
+    height: max-content
 }
 
 
@@ -230,18 +231,75 @@ body {
 } */
 
 .footer {
-    display: block;
-    position: fixed;
-    bottom: 0px;
-    padding: 3px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    /* bottom: 0px; */
+    /* padding: 3px; */
+    justify-content: center;
     width: 100vw;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-size: small;
-    border: 1px solid rgba(0, 0, 0, 0.318);
+    /* font-size: small; */
+    border: 1px solid rgba(0, 0, 0, 0.179);
     text-align: center;
+    justify-content: center;
+    color: rgb(11, 12, 12);
+    /* font-family: "Bebas Neue"; */
+    /* border-radius: 10px 10px; */
     /* z-index: 999; */
+    /* height: max-content; */
+    /* height:  */
+    bottom: 0;
+    margin-top: 1%;
+    padding: 10px;
+    column-gap: 1vw;
+    flex-wrap: nowrap;
 }
+
+
+.support {
+    font-size: 1rem;
+    margin: 0;
+    background-color: rgba(87, 3, 255, 0.167);
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.612);
+    padding: min(0.5vw, 4px) 10px;
+    /* font-family:  */
+}
+
+.channel {
+    font-size: min(1rem, 0.5em);
+    margin: 0;
+    padding: min(0.5vw, 4px) 10px;
+    background-color: rgba(87, 3, 255, 0.167);
+    border-radius: 10px;
+    color: black;
+    /* z-index: 5; */
+
+}
+
+.group {
+    display: inline;
+    margin: 0;
+    padding: 0px;
+    grid-column: 1;
+    grid-row: 1;
+    /* z-index: 4; */
+    /* grid-column: 2/2; */
+    /* width: fit-content; */
+    color: black;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.167);
+    
+}
+
+@media(max-width: 600px){
+    .footer {
+        padding: 3px;
+    }
+}
+
 @media(min-width: 800px){
     
     .top {
@@ -253,7 +311,7 @@ body {
     }
 
     .tutorial{
-        gap: 100px;
+        /* gap: 100px; */
         row-gap: 100px;
         column-gap: 200px;
         height: 100%;
