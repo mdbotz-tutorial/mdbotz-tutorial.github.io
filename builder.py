@@ -68,6 +68,7 @@ shutil.rmtree("css")
 # shutil.rmtree("css")
 # shutil.rmtree("images")
 shutil.rmtree("output/images")
+shutil.rmtree("output/css")
 
 def build():
 
