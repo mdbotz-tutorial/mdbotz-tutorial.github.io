@@ -28,7 +28,7 @@ FOOTER_TEMPLATE = """
 
 HEADER_TEMPLATE = """
         <div class="top">
-           <img class="logo" src="./images/logo.png" alt="logo image">
+           <img class="logo" src="../images/logo.png" alt="logo image">
            <h3 class="company-1" id="company">MD</h3>
            <h3 class="company-2" id="company">BOTZ</h3>
         </div>
@@ -64,10 +64,10 @@ os.makedirs("output", exist_ok=True)
 # shutil.copytree("js", "output/js")
 # shutil.copytree("images", "output/images")
 
-shutil.rmtree("css")
+# shutil.rmtree("css")
 # shutil.rmtree("css")
 # shutil.rmtree("images")
-shutil.rmtree("output/images")
+# shutil.rmtree("output/images")
 # shutil.rmtree("output/css")
 
 def build():
