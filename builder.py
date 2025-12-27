@@ -4,7 +4,7 @@ import shutil
 from itertools import count 
 
 
-shutil.rmtree("output")
+# shutil.rmtree("output")
 
 BODY_TEMPLATE = """
       <div class="tutorials">
@@ -58,11 +58,11 @@ def create_innerHTML(images):
         )
     return innerHTML
 
-os.makedirs("output", exist_ok=True)
+# os.makedirs("output", exist_ok=True)
 
-shutil.copytree("css", "output/css")
-shutil.copytree("js", "output/js")
-shutil.copytree("images", "output/images")
+# shutil.copytree("css", "output/css")
+# shutil.copytree("js", "output/js")
+# shutil.copytree("images", "output/images")
 
 def build():
 
