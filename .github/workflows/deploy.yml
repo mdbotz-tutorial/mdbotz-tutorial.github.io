@@ -35,12 +35,12 @@ jobs:
         with:
            python-version: "3.10"
       
-      # - name: copy files 
-      #   run: |
-      #       mkdir output
-      #       cp -r css output/css 
-      #       cp -r js output/js
-      #       cp -r images output/images
+      - name: copy files 
+        run: |
+            mkdir output
+            cp -r css output/css 
+            cp -r js output/js
+            cp -r images output/images
 
       - name: running builder.py
         run: python builder.py
