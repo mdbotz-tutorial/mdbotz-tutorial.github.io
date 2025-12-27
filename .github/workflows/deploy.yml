@@ -1,0 +1,44 @@
+name: github page deploy 
+
+on: 
+  push:
+     branches: 
+        - main
+        # - otherbranch
+
+  # allow running manually 
+  workflow_dispatch:
+
+
+jobs:
+  deploy: 
+     runs-on: ubuntu-latest
+
+  steps:
+      - name: cloning repository 
+        uses: actions/checkout@v5 
+        with:
+           ref: main 
+
+      - name: installing python 
+        uses: actions/setup-python@v6 
+        with:
+           python-version: "3.10"
+        run: python builder.py
+
+
+      - name: upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+           path: './output'
+
+      - name: deploy to github pages
+        id: deployment 
+        uses: actions/deploy-pages@v4
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+
+
+
+

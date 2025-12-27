@@ -1,0 +1,292 @@
+html body {
+    margin: 0;
+    min-height: 100%;
+    background-color: rgba(240, 241, 243, 1);
+    /* background-color: #f8f9fb; */
+    /* margin-bottom: 100px; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    /* column-gap: 3rem */
+}
+
+
+
+.container h6 {
+    display: inline;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100vw; */
+    height: 4rem;
+    margin: 10px min(10vw, 10px) 0 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1.5px solid rgb(0, 242, 255);   
+    /* background-color: white; */
+    border-radius: 10px;
+    /* box-shadow:  */
+    overflow: hidden;
+    border-right: 10px;
+    align-items: center;
+    border: 0 10px;
+    position: nrelative;
+    background: linear-gradient(to bottom left, rgb(0, 0, 0) 130%, cyan 150%);
+    /* left: 10px; */
+    /* justify-content: center; */
+}
+
+.company-1{
+    color: rgb(0, 200, 255);
+     margin-left: 1vw;
+     letter-spacing: 3px;
+     text-indent: 1px;
+}
+
+.company-2 {
+    color: white;
+    /* color: black; */
+    display: absolute;
+    /* margin: 2.3vh 0px 0px ;  */
+    text-justify: distribute;
+    /* font-size: 2.4vw */
+}
+
+#company {
+    gap: 10;
+    /* font-size: 18px; */
+    font-size: 0.8rem;
+}
+
+.logo {
+   display: absolute;
+   width: 35px;
+   margin-left: 10px;
+   border-radius: 50%;
+   border: 2px solid rgb(0, 234, 255);
+   margin: 10px 0px 10px 10px;
+}
+
+.tutorial {
+    display: grid;
+    position: static;
+    /* grid-auto-rows: 10px;
+    grid-auto-columns:  10px; */
+    /* grid-template-rows: 1fr 2fr 6fr; */
+    /* row-gap: 10px; */
+    /* column-gap: 10px;*/
+    grid-template-columns: repeat(auto-fit, 300px);
+    /* grid-template-rows: auto; */
+    /* grid-template-rows: repeat(auto-fit, 300px); heigh must be sepecified */
+    grid-auto-rows: 300px;
+
+    /* margin: 50px 10px 10px 10px; */
+    padding: 50px 10px 10px 10px;
+    /* margin: 0; */
+    /* row-gap: 10px; */
+    /* padding: 10px */
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
+    place-items: center center;
+     position: relative;
+    /* grid-template-areas: 
+       mdbotz mdbotz;*/
+    /* height: 50vh; */
+    min-height: 100dvh;
+}
+
+
+.tutorials{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 5px 5px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 0;
+    /* grid-area: mdbotz; */
+    border: 3px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+
+.description {
+    margin: 0px 0px 0px 10px;
+    padding: 0;
+    color: rgba(46, 46, 46, 0.566);
+    font-family:  sans-serif;
+    /* font-style: oblique; */
+    font-weight:bolder;
+    /* margin-left: 10px; */
+    background-color: rgb(255, 255, 255);
+    /* display: inline; */
+    /* max-width: 230px; */
+    width: 200px;
+    padding-top: 10px;
+    font-size: small;
+    /* display: inline-block; */
+    /* top: 10px; */
+    position: relative;
+    /* margin: 3px; */
+    /* padding: 10px;
+    border: 10px; */
+}
+
+.tutorials > img {
+    width: 230px;
+    height: 170px;
+    background-color: rgb(0, 255, 157);
+    /* height: auto;
+    width: auto; */
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 10px 10px 3px 3px;
+    margin: 0px;
+    object-fit: contains;
+}
+
+.count{
+    /* margin: .
+     */
+    margin: 1px;
+    /* margin: 10px 10px 10px 10px; */
+    /* padding: 0px; */
+    align-self: center;
+    padding: 2px;
+    width: 10px;
+    /* height: px; */
+    height: 14px;
+    /* padding: 4px; */
+    font-size: 1.2rem;
+    /* background-color: black; */
+    border-radius: 50%;
+    color: rgb(106, 101, 101);
+    /* text-align: justify; */
+    text-align: center;
+    width: fit-content;
+    min-width: max-content;
+    height: max-content;
+    /* background-color: none; */
+
+}
+
+
+
+.footer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    /* bottom: 0px; */
+    /* padding: 3px; */
+    justify-content: center;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    /* font-size: small; */
+    border: 1px solid rgba(0, 0, 0, 0.179);
+    text-align: center;
+    justify-content: center;
+    color: rgb(11, 12, 12);
+    /* font-family: "Bebas Neue"; */
+    /* border-radius: 10px 10px; */
+    /* z-index: 999; */
+    /* height: max-content; */
+    /* height:  */
+    bottom: 0;
+    margin-top: 1%;
+    padding: 10px;
+    column-gap: 1vw;
+    flex-wrap: nowrap;
+}
+
+
+.support {
+    font-size: 1rem;
+    margin: 0;
+    /* background-color: rgba(87, 3, 255, 0.167); */
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.634);
+    padding: min(0.5vw, 4px) 10px;
+    border-radius: 4px;
+    /* border: 1px solid rgba(0, 0, 0, 0.141); */
+    border: 1px solid rgba(112, 110, 110, 0.368);
+    background-color: white;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-width: 100vw;
+    height: 100px;
+    /* background-color: rgb(255, 255, 0); */
+    height: fit-content;
+    margin: 0;
+}
+
+.modify {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 0.5em;
+    /* background-color:rgb(3, 100, 67); */
+    /* background: linear-gradient(to right, rgb(0, 204, 255) 40%, cyan 100%); */
+    padding: 15px;
+    /* height: fit-content; */
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    color: rgba(255, 255, 255, 0.76);
+    margin-bottom: 40px;
+    font-weight: bolder;
+    background: linear-gradient(to bottom left, rgb(0, 0, 0) 100%, cyan 150%);
+}
+
+@media(max-width: 600px){
+    .footer {
+        padding: 5px;
+    }
+
+    .support {
+        font-size: 0.8em;
+        padding: 2px 3px;
+    }
+}
+
+@media(min-width: 800px){
+    
+    .top {
+        padding: 0px 30px
+    }
+    
+    .company-1{
+        padding-left: 35vw;
+    }
+
+    .tutorial{
+        /* gap: 100px; */
+        row-gap: 100px;
+        column-gap: 200px;
+        /* height: 100%; */
+    }
+    .tutorials > img {
+        width: 270px;
+        height: 200px;
+        align-self: auto;
+    }
+}
+
