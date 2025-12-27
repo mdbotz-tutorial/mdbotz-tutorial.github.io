@@ -13,6 +13,10 @@ on:
 jobs:
   deploy: 
      runs-on: ubuntu-latest
+     
+     environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
 
      steps:
       - name: cloning repository 
@@ -24,6 +28,8 @@ jobs:
         uses: actions/setup-python@v6 
         with:
            python-version: "3.10"
+      
+      - name: runnign builder.py
         run: python builder.py
 
       - name: copy files 
@@ -40,9 +46,8 @@ jobs:
       - name: deploy to github pages
         id: deployment 
         uses: actions/deploy-pages@v4
-        environment:
-            name: github-pages
-            url: ${{ steps.deployment.outputs.page_url }}
+        
+        
 
 
 
