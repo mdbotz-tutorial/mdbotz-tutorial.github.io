@@ -1,10 +1,10 @@
 {
   "web.html": {
-    "../images/web-1.jpg": "send command /special_link<br>click the create button dummy js",
-    "../images/web-2.jpg": "After send the message you want to store to bot dium,mmyt description more to text uint",
-    "../images/web-3.jpg": "If you want to store more mssage then send messages one by one to bot.",
-    "../images/web-4.jpg": "To generate shareable link click the button named generate link",
-    "../images/web-5.jpg": "---- after clicking genrate link button your clone will give you a sharable and modifiable link"
+    "../images/web-1.jpg": "send command /special_link to clone and then click create button.",
+    "../images/web-2.jpg": "After send the message you want to store to bot.",
+    "../images/web-3.jpg": "If you want to store more message then send each messages one by one to the bot.",
+    "../images/web-4.jpg": "To generate shareable link click the generate link button.",
+    "../images/web-5.jpg": "After clicking clone will give you a sharable and modifiable link."
 },
 
   "modify.html":  {
