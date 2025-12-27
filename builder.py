@@ -64,9 +64,10 @@ os.makedirs("output", exist_ok=True)
 # shutil.copytree("js", "output/js")
 # shutil.copytree("images", "output/images")
 
-# shutil.rmtree("css")
+shutil.rmtree("css")
 # shutil.rmtree("css")
 shutil.rmtree("images")
+shutil.rmtree("output/images")
 
 def build():
 
