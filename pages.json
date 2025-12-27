@@ -2,11 +2,11 @@
     {
       "name": "web.html",
       "title": "create a special link",
-      "stylesheet": "../css/web.css"
+      "stylesheet": "./css/web.css"
     },
     {
       "name": "modify.html",
       "title": "modify a special link",
-      "stylesheet": "../css/web.css"
+      "stylesheet": "./css/web.css"
     }
 ]

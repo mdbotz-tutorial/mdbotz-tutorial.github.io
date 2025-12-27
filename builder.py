@@ -1,6 +1,10 @@
 import os 
 import json 
+import shutil 
 from itertools import count 
+
+
+shutil.rmtree("output")
 
 BODY_TEMPLATE = """
       <div class="tutorials">
@@ -24,7 +28,7 @@ FOOTER_TEMPLATE = """
 
 HEADER_TEMPLATE = """
         <div class="top">
-           <img class="logo" src="../images/logo.png" alt="logo image">
+           <img class="logo" src="./images/logo.png" alt="logo image">
            <h3 class="company-1" id="company">MD</h3>
            <h3 class="company-2" id="company">BOTZ</h3>
         </div>
@@ -56,6 +60,10 @@ def create_innerHTML(images):
 
 os.makedirs("output", exist_ok=True)
 
+shutil.copytree("css", "output/css")
+shutil.copytree("js", "output/js")
+shutil.copytree("images", "output/images")
+
 def build():
 
     for page in pages_list:
@@ -76,4 +84,6 @@ def build():
         with open(f"output/{page['name']}", "w+") as fd:
             fd.write(new_template)
  
+
+
 build()

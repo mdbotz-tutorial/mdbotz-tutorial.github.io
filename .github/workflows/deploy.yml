@@ -26,7 +26,12 @@ jobs:
            python-version: "3.10"
         run: python builder.py
 
-
+      - name: copy files 
+        run: |
+            cp -r css output/css 
+            cp -r js output/css 
+            cp -r images output/images
+            
       - name: upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
