@@ -58,7 +58,7 @@ def create_innerHTML(images):
         )
     return innerHTML
 
-# os.makedirs("output", exist_ok=True)
+os.makedirs("output", exist_ok=True)
 
 # shutil.copytree("css", "output/css")
 # shutil.copytree("js", "output/js")
