@@ -153,8 +153,8 @@ body {
 }
 
 .image13::after {
-   
 }
+
 .header-text h3 {
    margin: 0;
    margin-top: 10vh;
@@ -184,7 +184,6 @@ body {
     /* flex-direction: column;
      */
     align-items:flex-start;
-    
 }
 
 .dummy{
@@ -222,7 +221,7 @@ body {
 }
 
 .group1 > p {
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 @media (max-width: 670px) {

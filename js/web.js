@@ -1,3 +1,4 @@
+import {createPage} from './main.js'
 
 let tutorials = [
     {
@@ -22,21 +23,4 @@ let tutorials = [
     }
 ];
 
-function createPage(){
-    
-    const doc = document.getElementById("tutoriald");
-    // for (const fruit of fruits){...}
-    for(let i = 0; i< tutorials.length; i++){
-        const div = document.createElement("div")
-        div.className = "tutorials";
-        div.innerHTML = `
-             <img class="tutorial-img" src="images/${tutorials[i]['url']}" alt="tutorial 1 image">
-             <p class="count">${i+1}</p>
-             <p class="description">${tutorials[i]['description']}</p>
-        `
-        doc.appendChild(div)
-        
-    }
-}
-
-createPage()
+createPage(tutorials)
