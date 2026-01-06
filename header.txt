@@ -7,9 +7,9 @@
         </div>
         <div class="bar" id="bar">
              <!-- <div>special link</div> -->
-             <div class="bar-span"><a href="../output" style="text-decoration: none; color: inherit;">Create</a></div>
-             <div class="bar-span"><a href="../output/modify.html" style="text-decoration: none; color: inherit;">Modify</a></div>
-             <div class="bar-span"><a href="../output/edit_content.html" style="text-decoration: none; color: inherit;">Edit content</a></div>
-             <div class="bar-span"><a href="../output/whitelisters.html" style="text-decoration: none; color: inherit;">Whitelisters</a></div>
-             <div class="bar-span"><a href="../output/auto_expire.html" style="text-decoration: none; color: inherit;">Auto expire</a></div>
+             <div class="bar-span"><a href="." style="text-decoration: none; color: inherit;">Create</a></div>
+             <div class="bar-span"><a href="../modify.html" style="text-decoration: none; color: inherit;">Modify</a></div>
+             <div class="bar-span"><a href="../edit_content.html" style="text-decoration: none; color: inherit;">Edit content</a></div>
+             <div class="bar-span"><a href="../whitelisters.html" style="text-decoration: none; color: inherit;">Whitelisters</a></div>
+             <div class="bar-span"><a href="../auto_expire.html" style="text-decoration: none; color: inherit;">Auto expire</a></div>
          </div>
