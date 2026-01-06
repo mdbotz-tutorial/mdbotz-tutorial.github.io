@@ -2,7 +2,7 @@ import os
 import json 
 import shutil 
 from itertools import count 
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
 # shutil.rmtree("output")
 
