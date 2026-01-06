@@ -1,0 +1,9 @@
+    <footer class="footer">
+          <a class="support" id="group" style="text-decoration: none;" href="https://telegram.me/MdBotzSupport">
+               support group
+          </a>
+          <a class="support" id="channel" style="text-decoration: none;" href="https://t.me/venombotupdates">
+               support channel
+          </a>
+        </footer>
+        <script src="../js/click.js" defer></script>

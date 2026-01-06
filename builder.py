@@ -2,51 +2,26 @@ import os
 import json 
 import shutil 
 from itertools import count 
-
+from bs4 import BeautifulSoup
 
 # shutil.rmtree("output")
 
-BODY_TEMPLATE = """
-      <div class="tutorials">
-         <img class="tutorial-img" src="{0}" alt="tutorial image's">
-         <p class="count">{1}</p>
-         <p class="description">{2}</p>
-      </div>
-"""
-
-
-FOOTER_TEMPLATE = """
-       <footer class="footer">
-          <a class="support" id="group" style="text-decoration: none;" href="https://telegram.me/MdBotzSupport">
-               support group
-          </a>
-          <a class="support" id="channel" style="text-decoration: none;" href="https://t.me/venombotupdates">
-               support channel
-          </a>
-        </footer>
-"""
-
-HEADER_TEMPLATE = """
-        <div class="top">
-           <img class="logo" src="../images/logo.png" alt="logo image">
-           <h3 class="company-1" id="company">MD</h3>
-           <h3 class="company-2" id="company">BOTZ</h3>
-        </div>
-""".strip()
-
-
-def read_file(name, mode="r"):
+def read(name, mode="r"):
     with open(name, mode) as fd:
         return fd.read()
-    
+
+BODY_TEMPLATE = read("body.txt")
+FOOTER_TEMPLATE = read("footer.txt")
+HEADER_TEMPLATE = read("header.txt")
+
 pages_list = json.loads(
-    read_file("pages.json")
+    read("pages.json")
 )
 
-template = read_file("template.txt")
+template = read("template.txt")
 
 tutorials = json.loads(
-    read_file("tutorials.json")
+    read("tutorials.json")
 )
 
 def create_innerHTML(images):
@@ -74,18 +49,22 @@ def build():
 
     for page in pages_list:
         
-        body = read_file(f"template/{page['name']}")
+        body = read(f"template/{page['name']}")
         
         new_template = template.format(
             body=body.format(
                header=HEADER_TEMPLATE,
                footer=FOOTER_TEMPLATE,
                tutorials=create_innerHTML(
-                   tutorials[page["name"]]
+                   tutorials.get(page["name"], {})
                )
             ),
             **page
         )
+
+        # new_template = BeautifulSoup(
+        #     new_template, 'html.parser'
+        # ).prettify()
 
         with open(f"output/{page['name']}", "w+") as fd:
             fd.write(new_template)

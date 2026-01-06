@@ -9,7 +9,7 @@
     font-weight: 300;
     font-variant: normal;
     /* padding-top: 30px; */
-    margin: 30px 20px 0px 20px;
+    margin: 30px 20px 30px 20px;
     /* padding-left:10px; */
     /* top: 5vh; */
     border: 1px solid rgba(232, 227, 227, 0.281);
@@ -25,3 +25,4 @@
     border-radius: 10px;
     /* height: 40px; */
 }
+

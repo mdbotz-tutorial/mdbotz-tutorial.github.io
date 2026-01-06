@@ -1,0 +1,6 @@
+      
+      <div class="tutorials">
+         <img class="tutorial-img" src="{0}" alt="tutorial image's">
+         <p class="count">{1}</p>
+         <p class="description">{2}</p>
+      </div>

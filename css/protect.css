@@ -1,0 +1,22 @@
+
+.about {
+    margin: 50px clamp(5vw, 50px, 10vw);
+    /* width: fit-content; */
+    padding: 30px;
+    justify-items: center;
+    background-color: white;
+    font-family: "saira";
+    font-size: clamp(0.5rem, 3vw, 1rem);
+    border-radius: 30px;
+}
+
+.about h4 {
+    text-align: center
+}
+
+.about p {
+    font-weight: 800px;
+    /* margin: 0 auto;
+    width: fit-content; */
+    /* font-size: clamp(0.5rem, 5vw, 1rem) */
+}

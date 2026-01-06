@@ -1,13 +1,74 @@
 {
-  "web.html": {
-    "../images/web-1.jpg": "send command /special_link to clone and then click create button.",
-    "../images/web-2.jpg": "After send the message you want to store to bot.",
-    "../images/web-3.jpg": "If you want to store more message then send each messages one by one to the bot.",
-    "../images/web-4.jpg": "To generate shareable link click the generate link button.",
-    "../images/web-5.jpg": "After clicking clone will give you a sharable and modifiable link."
-},
+  
+  "index.html": {
+    "../images/index-1.jpg": "Send the /special_link command, then click Create to generate a new special link.",
+    "../images/index-2.jpg": "Send the message you want to store to the bot.",
+    "../images/index-3.jpg": "If you want to store more messages, send each message to the bot one by one.",
+    "../images/index-4.jpg": "Once you’re done adding messages, click Generate Link to create a shareable link.",
+    "../images/index-5.jpg": "Once you click Generate Link, the bot will provide a shareable link that you can also modify later."
+  },
 
-  "modify.html":  {
-     "../images/web-2.jpg": "After send the message you want to store to bot dium,mmyt description more to text uint"
-  }
+  "modify.html": {
+     "../images/modify-1.jpg": "First method:<br><br>You can directly modify the link by clicking Modify Link in the message sent by the bot after the link is created..",
+     "../images/modify-2.jpg": "Second method:<br><br>1) Send the /special_link command, then click Modify to edit an existing link.",
+     "../images/modify-4.png": "Second method:<br><br>2) send the link you want modify sent to bot or click the link you want to edit",
+     "../images/modify-4.jpg": "You can now customize the link using the available options.",
+     "../images/modify-5.jpg": "Easy Tip:<br><br>Just send the link you want to edit to the bot, then press Modify Link." 
+  },
+
+  "edit_content.html": {
+      "../images/edit_content-1.jpg": "First click the edit content",
+      "../images/edit_content-2.jpg": "Using the buttons below, you can add or remove messages for this link."
+  },
+
+  "edit_content_add.html": {
+      "../images/edit_content_add-1.jpg": "First click add button",
+      "../images/edit_content_add-2.jpg": "Choose whether to add the message at the first position, in between existing messages, or at the last position.",
+      "../images/edit_content_add-3.jpg": "Here, we choose the In Between option to add the message between existing messages.",
+      "../images/edit_content_add-4.png": "Then send position number to which position you want to add new message in the like, here we choosed 2 to add in second postion",
+      "../images/edit_content_add-5.jpg": "Then send the messaage you want to store to bot",
+      "../images/edit_content_add-6.jpg": "To add more messages, send them one by one. When you’re finished, click Done.",
+      "../images/edit_content_add-7.jpg": "The message has been added successfully."
+  },
+  
+  "edit_content_remove.html": {
+       "../images/edit_content_remove-1.jpg": "First, click the Remove button.",
+       "../images/edit_content_remove-2.jpg": "Enter the position number of the message to remove. In this example, we selected 3 to delete the third message.",
+       "../images/edit_content_remove-3.jpg": "The selected message (position 3) has been deleted successfully.",
+       "../images/edit_content_remove-4.jpg": "To delete more than one message, enter each message position separated by a comma (for example: 1, 3, 4, 5)."
+  },
+   
+  "add_whitelisters.html": {
+        "../images/add_whitelisters-1.jpg": "First click the whitelisters button",
+        "../images/add_whitelisters-2.jpg": "Then, click <b>Enable</b>.",
+        "../images/add_whitelisters-3.jpg": "Then, click the Add button.",
+        "../images/add_whitelisters-4.jpg": "Then, open <b>@MissRose_Bot</b>.",
+        "../images/add_whitelisters-5.jpg": "<b>Two Methods to Retrieve a User ID:</b><br><br>1) Forward the user’s message to Rose bot and reply with /id.<br><br>2)Send the /id command along with the username (for example: /id @username).",
+        "../images/add_whitelisters-6.jpg": "Then send the user ID obtained from Rose bot, and you’re done."
+   },
+
+   "remove_whitelisters.html": {
+        "../images/remove_whitelisters-1.jpg": "Click the delete button",
+        "../images/remove_whitelisters-2.jpg": "Then send the user ID of the whitelister you want to remove. Once done, the whitelister will be removed successfully."
+   },
+
+   "protect_content.html": {
+        "../images/protect_content-1.jpg": "To Enable Protect content click the enable button.",
+        "../images/protect_content-2.jpg": "Protect Content has now been enabled for the link.",
+        "../images/protect_content-3.jpg": "After enabling Protect Content, the Enable button changes to Disable, Click Disable to turn off Protect Content.",
+        "../images/protect_content-4.jpg": "Protect Content has now been disabled for the link."
+   },
+   
+   "set_expire.html": {
+      "../images/set_expire-1.jpg": "First, click Auto Expire.",
+      "../images/set_expire-2.jpg": "Then click the Set button.",
+      "../images/set_expire-3.jpg": "Then send the validity period after which the link should expire.<br><br>For more information about validity periods, <a href='http://telegra.ph/Expiration-tutorial-12-04' target='_blank' style='text-decoration: none; color: black;'> click here </a>.",
+      "../images/set_expire-4.jpg": "Auto expiration has been set successfully."
+   },
+
+   "remove_expire.html": {
+      "../images/remove_expire-1.jpg": "First, click Auto Expire.",
+      "../images/remove_expire-2.jpg": "Then click the remove button.",
+      "../images/remove_expire-3.jpg": "Auto expiration has been successfully removed."
+   }
 }
