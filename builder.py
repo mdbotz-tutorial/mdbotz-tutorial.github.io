@@ -1,10 +1,8 @@
 import os 
 import json 
-import shutil 
 from itertools import count 
-# from bs4 import BeautifulSoup
 
-# shutil.rmtree("output")
+os.makedirs("output", exist_ok=True)
 
 def read(name, mode="r"):
     with open(name, mode) as fd:
@@ -14,7 +12,9 @@ BODY_TEMPLATE = read("body.txt")
 FOOTER_TEMPLATE = read("footer.txt")
 HEADER_TEMPLATE = read("header.txt")
 
-pages_list = json.loads(
+LINK_TEMPLATE = """\r\t<link rel="stylesheet" href="{path}">"""
+
+pages_list: list[dict] = json.loads(
     read("pages.json")
 )
 
@@ -33,17 +33,11 @@ def create_innerHTML(images):
         )
     return innerHTML
 
-os.makedirs("output", exist_ok=True)
-
-# shutil.copytree("css", "output/css")
-# shutil.copytree("js", "output/js")
-# shutil.copytree("images", "output/images")
-
-# shutil.rmtree("css")
-# shutil.rmtree("css")
-# shutil.rmtree("images")
-# shutil.rmtree("output/images")
-# shutil.rmtree("output/css")
+def get_stylesheets(paths):
+     stylesheets = ""
+     for path in paths:
+         stylesheets += LINK_TEMPLATE.format(path=path)
+     return stylesheets 
 
 def build():
 
@@ -59,16 +53,16 @@ def build():
                    tutorials.get(page["name"], {})
                )
             ),
+            stylesheet=get_stylesheets(
+                page["stylesheets"]
+            )[2:],
             **page
+            
         )
-
-        # new_template = BeautifulSoup(
-        #     new_template, 'html.parser'
-        # ).prettify()
 
         with open(f"output/{page['name']}", "w+") as fd:
             fd.write(new_template)
  
 
-print("page builded")
 build()
+print("page builded successfully")

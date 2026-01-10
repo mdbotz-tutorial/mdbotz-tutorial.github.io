@@ -1,4 +1,5 @@
-.knowmore {
+
+.discover {
     display: grid;
     grid-template-areas: 
       "head head"
@@ -14,8 +15,6 @@
     margin-top: 30px;
     text-decoration: none;
     padding: 20px;
-      /* align-items: center; */
-    /* margin-left: 100px */
     font-size: clamp(0.5rem, 1.4vw, 1rem);
     border-radius: 20px;
     margin-bottom: 30px;
@@ -24,95 +23,53 @@
     
 }
 
-.knowmore > a {
-    
+.discover a {
+    padding: 10px;
+    text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border-radius: 20px;
     border: 1px solid rgba(255, 246, 246, 0.311);
-    /* width: auto; */
-    padding: 10px;
-    /* width:  140px; */
-    text-align: center;
-    
+    border-radius: 20px;
 }
 
-.knowmore > div {
+.discover > div {
     color: rgb(255, 255, 255);
     font-weight: 700;
 }
 
-
-
-.question {
-    display: block;
-    background-color:rgba(214, 211, 211, 0);
-    color: rgba(0, 0, 0, 0.475);
-    /* align-self: flex-start */
-    /* text-align: center; */
-    font-size: 1em;
-    font-weight: 300;
-    font-variant: normal;
-    /* padding-top: 30px; */
-    margin: 30px 20px 30px 20px;
-    /* padding-left:10px; */
-    /* top: 5vh; */
-    border: 1px solid rgba(232, 227, 227, 0.281);
-    /* border-radius: 10px; */
-    /* height: 10px; */
-    /* text-shadow: 0px 0px 0px rgb(26, 26, 26); */
-    text-align: center;
-    text-wrap: none;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid rgba(0, 0, 0, 0.232);
-    /* width: fit-content; */
-    font-family: "Bebas Neue";
-    border-radius: 10px;
-    /* height: 40px; */
-}
-
-
-.whitelisters-sp {
-    display: flex;
-    /* height: 50vh; */
-    flex-direction: column;
+.whitelisters-overwiew {
     margin: 50px;
-    border: 1px solid rgb(77, 77, 77);
     padding: 30px;
-    font-size: clamp(0.5rem, 2vw, 1rem);
-    border-radius: 20px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: white;
+    font-size: clamp(0.5rem, 2vw, 1rem);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 20px;
     font-family: saira;
+    text-align: center;
 }
 
-.whitelisters-sp > h3 {
+.whitelisters-overwiew > h3 {
     margin: 0 auto;
     margin-bottom: 30px;
     width: fit-content
 }
 
-.whitelisters-sp > p {
+.whitelisters-overwiew > p {
     width: fit-content;
     margin: 0 auto;
     text-align: left;
 }
 
-.first-title {
-    /* min-height: 100px; */
-    background-color: white;
-    text-align: start;
-    /* text-indent: 100px; */
-    font-family: "saira";
-    font-size: clamp(0.5rem, 5vw, 1rem);
-    padding: 50px 20px;
+.expire-overview {
     margin: 50px;
+    padding: 50px 20px;
+    text-align: start;
+    font-family: "saira";
+    background-color: white;
+    font-size: clamp(0.5rem, 5vw, 1rem);
     justify-items: center;
     border-radius: 30px;
-    /* width: fit-content; */
-}
-.first-title h3 {
-    /* text-decoration: underline; */
-    /* width: max-content; */
 }

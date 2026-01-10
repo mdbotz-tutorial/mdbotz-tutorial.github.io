@@ -1,13 +1,12 @@
 
 .about {
-    margin: 50px clamp(5vw, 50px, 10vw);
-    /* width: fit-content; */
     padding: 30px;
-    justify-items: center;
-    background-color: white;
-    font-family: "saira";
-    font-size: clamp(0.5rem, 3vw, 1rem);
     border-radius: 30px;
+    justify-items: center;
+    font-family: "saira";
+    background-color: white;
+    margin: 50px clamp(5vw, 50px, 10vw);
+    font-size: clamp(0.5rem, 3vw, 1rem);
 }
 
 .about h4 {
@@ -16,7 +15,4 @@
 
 .about p {
     font-weight: 800px;
-    /* margin: 0 auto;
-    width: fit-content; */
-    /* font-size: clamp(0.5rem, 5vw, 1rem) */
 }

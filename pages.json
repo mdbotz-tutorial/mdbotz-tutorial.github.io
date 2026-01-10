@@ -2,61 +2,72 @@
     {
       "name": "index.html",
       "title": "create a special link",
-      "stylesheet": "../css/web.css"
+      "stylesheets": []
     },
+
     {
       "name": "modify.html",
       "title": "modify a special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css", "manu.css"]
     },
+
     {
       "name": "edit_content.html",
       "title": "edit contents special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "edit_content_add.html",
       "title": "add messages in special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "edit_content_remove.html",
       "title": "remove messages in special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "whitelisters.html",
       "title": "about whitelister in special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "add_whitelisters.html",
       "title": "how to add whitelister in special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "remove_whitelisters.html",
       "title": "how to remove whitelister in special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "protect_content.html",
       "title": "Learn about protect content in special link",
-      "stylesheet": "../css/protect.css"
+      "stylesheets": ["../css/protect.css"]
     },
+
     {
       "name": "auto_expire.html",
       "title": "Learn about auto expire in special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "set_expire.html",
       "title": "Learn about set auto expire in a special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     },
+
     {
       "name": "remove_expire.html",
       "title": "Learn about remove auto expire in a special link",
-      "stylesheet": "../css/extra.css"
+      "stylesheets": ["../css/extra.css"]
     }
 ]
