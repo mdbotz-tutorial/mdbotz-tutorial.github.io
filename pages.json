@@ -8,7 +8,7 @@
     {
       "name": "modify.html",
       "title": "modify a special link",
-      "stylesheets": ["../css/extra.css", "manu.css"]
+      "stylesheets": ["../css/extra.css"]
     },
 
     {

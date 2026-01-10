@@ -58,6 +58,7 @@ html body {
 }
 
 .topic {
+    padding: 3px;
     display: block;
     font-size: 1em;
     font-weight: 300;
@@ -67,13 +68,10 @@ html body {
     border: 1px solid rgba(0, 0, 0, 0.232);
     background-color: rgba(2, 213, 255, 0);
     font-family: "saira";
-    font-weight: bold;
     font-variant: small-caps;
     border-radius: 10px;
     text-align: center;
     text-wrap: none;
-    padding: 3px;
-    font-size: 1rem;
 }
 
 .tutorial {
@@ -88,7 +86,6 @@ html body {
     min-height: max-content;
     gap: 50px;
 }
-
 
 .tutorials {
     margin: 0;
@@ -211,7 +208,6 @@ html body {
     background: linear-gradient(to bottom left, rgb(0, 0, 0) 100%, cyan 150%);
 }
 
-
 svg {
     height: 20px;
     padding: 4px;
@@ -239,37 +235,20 @@ svg {
     flex-wrap: nowrap;
     position: absolute;
     justify-items: center;
-    /* width: max-content; */
-    /* height: max-content; */
     border-radius: 10px;
     right: min(10vw, 50px);
+    font-size: clamp(0.5rem, 1.6vw, 1rem);
     z-index: 8999;
     top: 20px;
-    display: none;
-    font-size: clamp(0.5rem, 1.6vw, 1rem);
-    
-}
-
-.menubar-items {
-    text-indent: 10px;
-    text-align: right;
-}
-
-.menubar-items {
-    /* border: 1px solid rgba(130, 113, 113, 0.042); */
-    border: 1px solid rgba(155, 151, 151, 0.093);
-    padding: 2px;
-    border-radius: 7px
-
-}
-
-#closebar {
-    display: none;
 }
 
 .menubar-items {
     margin: 5px;
     padding: 2px;
+    text-indent: 10px;
+    text-align: right;
+    border-radius: 7px;
+    border: 1px solid rgba(155, 151, 151, 0.093);
     color: rgb(90, 87, 87);
 }
 
